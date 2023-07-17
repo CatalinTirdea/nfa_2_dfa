@@ -1,0 +1,27 @@
+#
+# comment lines (skip them)
+#
+Sigma:
+a
+b
+epsilon
+End
+#
+# comment lines(skip them)
+#
+States :
+1,S,F
+2
+3
+End
+#
+# comment lines (skip them)
+#
+Transitions :
+1,b,2
+1,epsilon,3
+2,a,2
+2,a,3
+2,b,3
+3,a,1
+End
